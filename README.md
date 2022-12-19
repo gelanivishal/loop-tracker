@@ -3,8 +3,7 @@
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
  - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
+ - [API endpoint](#markdown-header-api-endpoint)
 
 
 ## Main Functionalities
@@ -28,11 +27,10 @@ To track product add to cart event
 <img src="https://raw.githubusercontent.com/gelanivishal/loop-tracker/master/image.png" />
 
 
+- Here is video of loop tracker extension
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CFU3byhu5hw/maxresdefault.jpg)](https://www.youtube.com/watch?v=CFU3byhu5hw)
 
-- Here is video of loop tracker
-
-<img src="https://raw.githubusercontent.com/gelanivishal/loop-tracker/master/video.gif" />
 
 ## API endpoit
 
