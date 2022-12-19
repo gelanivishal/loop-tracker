@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="loop_tracking_information" resource="default" engine="innodb" comment="">
+        <column xsi:type="int" name="entity_id" padding="11" unsigned="true" nullable="false" identity="true"/>
+        <column xsi:type="varchar" name="sku" nullable="false"/>
+        <column xsi:type="varchar" name="tracking_code" nullable="false"/>
+        <column xsi:type="text" name="tracking_message" nullable="false"/>
+        <column xsi:type="timestamp" name="created_at" on_update="false" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Create date"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="entity_id"/>
+        </constraint>
+        <index referenceId="LOOP_MINI_TRACKING_ENTITY_ID" indexType="btree">
+            <column name="entity_id"/>
+        </index>
+    </table>
+</schema>

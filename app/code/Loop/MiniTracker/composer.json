@@ -1,0 +1,23 @@
+{
+  "name": "loop/mini-tracker",
+  "version": "1.0.0",
+  "description": "This module is created for mini tracking.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-catalog": "104.0.*",
+    "magento/module-checkout": "100.4.*",
+    "magento/module-quote": "101.2.*"
+  },
+  "license": [
+    "GNU General Public License (GPL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Loop\\MiniTracker\\": ""
+    }
+  }
+}

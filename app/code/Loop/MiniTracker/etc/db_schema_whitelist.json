@@ -1,0 +1,17 @@
+{
+  "loop_tracking_information": {
+    "column": {
+      "entity_id": true,
+      "sku": true,
+      "tracking_code": true,
+      "tracking_message": true,
+      "created_at": true
+    },
+    "index": {
+      "LOOP_MINI_TRACKING_ENTITY_ID": true
+    },
+    "constraint": {
+      "PRIMARY": true
+    }
+  }
+}
