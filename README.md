@@ -23,19 +23,18 @@ To track product add to cart event
 
 ## Configuration
 
-Enable from **Store > Configuration > Loop > Mini Tracker**.
+- Enable from **Store > Configuration > Loop > Mini Tracker**.
 
-<img src="20221219-091808.png" />
+<img src="https://raw.githubusercontent.com/gelanivishal/loop-tracker/master/image.png" />
 
 
-## Specifications
+
+
+- Here is video of loop tracker
+
+<img src="https://raw.githubusercontent.com/gelanivishal/loop-tracker/master/video.gif" />
+
+## API endpoit
 
 - GET <base_url>/rest/V1/tracking?searchCriteria[pageSize]=20
   
-
-
-
-
-
-## Attributes
-
